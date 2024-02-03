@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .background-image {
-  background-image: url("../src/components/Assests/Hero-s-bg.png");
+  background-image: url("../src/Assests/Hero-s-bg.png");
+}
+
+body {
+  overflow-x: hidden;
 }

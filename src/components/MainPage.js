@@ -1,8 +1,8 @@
 import React from "react";
-import mainImage from "./Assests/Hero-image.png";
-import store from "./Assests/playstore.png";
-import app from "./Assests/app.png";
-import appstore from "./Assests/appstore.png";
+import mainImage from "../Assests/Hero-image.png";
+import store from "../Assests/playstore.png";
+import app from "../Assests/app.png";
+import appstore from "../Assests/appstore.png";
 
 const MainPage = () => {
   return (
