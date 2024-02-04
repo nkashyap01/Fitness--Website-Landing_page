@@ -5,7 +5,9 @@ import Pageheader from "./components/Pageheader";
 import ThirdPage from "./components/Thirdpage";
 import Fourthpage from "./components/Fourthpage";
 import FifthPage from "./components/FifthPage";
-import SixthPage from "./components/SixthPage";
+import SixthPage from "./components/SixthPage/SixthPage";
+import SeventhPage from "./components/SeventhPage/SeventhPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
       <Fourthpage />
       <FifthPage />
       <SixthPage />
+      <SeventhPage />
+
+      <Footer />
     </div>
   );
 }
