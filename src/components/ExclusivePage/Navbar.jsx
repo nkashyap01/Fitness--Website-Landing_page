@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className=" bg-[#68DBFF] h-[58px] text-white flex items-center justify-center relative top-16">
       
       
-        <ul className="flex gap-[80px] font-bold text-lg">
+        <ul className="flex font-bold text-lg w-full justify-around">
           <li>
             {" "}
             <a href="#"> Yoga</a>

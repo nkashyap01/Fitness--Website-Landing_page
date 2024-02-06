@@ -7,6 +7,13 @@ import orangeline from "../../Assests/second-arrow.png";
 import arrowicon from "../../Assests/arrow-icon.png";
 import rectangle from "../../Assests/Rectangle 6.png";
 import smallfirstimage from "../../Assests/first-small-image.png";
+import smallsecondimage from "../../Assests/second-small-image.png";
+import smallthirdimage from "../../Assests/third-small-image.png";
+import smallfourthimage from "../../Assests/fourth-small-image.png";
+import smalleightimage from "../../Assests/eightsmallimage.png";
+import smallsixthimage from "../../Assests/sixth-small-image.png";
+import smallseventhimage from "../../Assests/seventh-small-image.png";
+
 import Navbar from "./Navbar";
 
 const MainPage = () => {
@@ -54,13 +61,24 @@ const MainPage = () => {
                   </div>
                 </button>
               </div>
-              <div className="flex gap-3" >
-                <div>
-
+              <div className="flex gap-3 " >
+                <div className="flex">
+                <img src={smallfirstimage} className="w-[24px] h-[24px] " />
+                <img src={smallsecondimage}  className="w-[24px] h-[24px] relative right-2"/>
+                <img src={smallthirdimage}  className="w-[24px] h-[24px] relative right-3"/>
+                <img src={smallfourthimage}  className="w-[24px] h-[24px] relative right-3"/>
+                <img src={smallsixthimage}   className="w-[24px] h-[24px] relative right-4"/>
+                <img src={smallseventhimage}  className="w-[24px] h-[24px] relative right-5" />
+                <img src={ smalleightimage}  className="w-[24px] h-[24px] relative right-6"/>
+                
+                <div className="h-[24px] bg-[#F9F5FF] text-[#7F56D9]  w-[24px] rounded-full flex items-center justify-center">
+                <p>+5</p>
+                </div>
+                
                 </div>
                 <div> 
                 <h1 className="font-bold"> 5M +</h1>
-                <p className="text-xs"> WorldWide Users</p>
+                <p className="text-xs text-[#6C6C6C]"> WorldWide Users</p>
                 </div>
               </div>
             </div>

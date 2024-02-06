@@ -94,7 +94,7 @@ const CardIteration = () => {
   ];
 
   return (
-    <div className="flex flex-wrap gap-[20px] p-8 border-2 border-black justify-between">
+    <div className="flex flex-wrap  p-8 border-2 border-black justify-between w-[95vw]">
       {cardItems.map(
         (
           {
