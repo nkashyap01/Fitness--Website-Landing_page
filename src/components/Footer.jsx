@@ -112,7 +112,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-[1025px] h-[304px] bg-[#FF7917] rounded-[30px] absolute -top-[135px] left-[128px]">
+
+    <div className="flex items-center justify-center "> 
+      <div className="w-[1025px] h-[304px] bg-[#FF7917] rounded-[30px] absolute -top-[135px] ">
         <div className=" m-8  flex flex-col justify-end items-center gap-[25px]">
           <div className="text-center flex flex-col gap-[10px]">
             <p className="  text-white text-xs ">
@@ -150,6 +152,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      </div>
+      <div className="bg-white text-[#6C6C6C] text-center text-xs py-4">
+
+      <p>&copy; 2022 Fitness Hub, All Rights Reserved.</p>
+      <p className="text-[#FF7917] text-xs"> Fitness Hub</p>
+
+    </div>
     </div>
   );
 };

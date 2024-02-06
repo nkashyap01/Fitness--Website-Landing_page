@@ -5,11 +5,11 @@ const Heading = ({ head, name, icon, secondicon }) => {
     <div>
       <p> {head}</p>
       <div className="flex ">
-        <img src={icon} />
+        <img src={icon} alt="" />
         <p className="pl-3"> {name}</p>
         <button className="pl-8">
           {" "}
-          <img src={secondicon}></img>
+          <img src={secondicon} alt=""></img>
         </button>
       </div>
     </div>

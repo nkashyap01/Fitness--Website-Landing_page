@@ -1,7 +1,7 @@
 import React from "react";
 import iosicon from "../Assests/ios-icon.png";
 
-const secondpage = () => {
+const DownloadApp = () => {
   return (
     <div className="flex w-[95wh]  justify-between  h-[250px] p-6">
       <div className="h-[248px] w-[330px] ">
@@ -24,7 +24,7 @@ const secondpage = () => {
             Lorem Ipsum has been the industry's standard dummy text ever since
             the 1500s, when an unknown printer took
           </p>
-          <div className="w-[430px] h-[40px]  flex  -mt-2">
+          <div className="w-[430px] h-[40px]  flex  mt-2">
             <div className="w-4/12 border-r-[1.5px] border-black pr-2">
               <h1 className="text-[#FF7917] font-bold"> 5 Million+</h1>
               <p className="text-xs"> World Wide Active Users</p>
@@ -48,7 +48,7 @@ const secondpage = () => {
       </div>
 
       <div className="flex w-[390px] h-[250px] justify-between">
-        <div className="w-[145px] flex flex-col gap-[57px] justify-center items-center">
+        <div className="w-[145px] flex flex-col  gap-[35px] justify-center items-center">
           <p>
             {" "}
             <span> For IOS </span>
@@ -59,9 +59,9 @@ const secondpage = () => {
             {" "}
             Download App
           </button>
-          <img src={iosicon} className="w-[55px] h-[55px]" />
+          <img src={iosicon} className="w-[48px] h-[48px] flex " />
         </div>
-        <div className="w-[145px] flex flex-col gap-[57px] justify-center items-center">
+        <div className="w-[145px] flex flex-col gap-[35px] justify-center items-center">
           <p>
             {" "}
             <span> For IOS </span>
@@ -72,11 +72,11 @@ const secondpage = () => {
             {" "}
             Download App
           </button>
-          <img src={iosicon} className="w-[55px] h-[55px]" />
+          <img src={iosicon} className="w-[48px] h-[48px] " />
         </div>
       </div>
     </div>
   );
 };
 
-export default secondpage;
+export default  DownloadApp;

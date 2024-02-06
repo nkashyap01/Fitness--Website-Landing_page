@@ -2,7 +2,7 @@ import React from "react";
 import Rectanglepic from "../Assests/Rectangle 10.png";
 import playbutton from "../Assests/play-button.png";
 
-const FifthPage = () => {
+const AppDemo = () => {
   return (
     <div className=" mt-8 ">
       <div className="text-center">
@@ -24,4 +24,4 @@ const FifthPage = () => {
   );
 };
 
-export default FifthPage;
+export default AppDemo;

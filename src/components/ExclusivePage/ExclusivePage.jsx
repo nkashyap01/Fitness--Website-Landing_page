@@ -1,11 +1,12 @@
 import React from "react";
-import ficon from "../Assests/3-p-i-1.png";
-import sicon from "../Assests/3-p-i-2.png";
-import ticon from "../Assests/3-p-i-3.png";
-import fricon from "../Assests/3-p-i-4.png";
+import ficon from "../../Assests/3-p-i-1.png";
+import sicon from "../../Assests/3-p-i-2.png";
+import ticon from "../../Assests/3-p-i-3.png";
+import fricon from "../../Assests/3-p-i-4.png";
 import FitnessCard from "./FitnessCard";
+import Navbar from "./Navbar";
 
-const Thirdpage = () => {
+const ExclusivePage = () => {
   const thirdArrayItem = [
     {
       icon: ficon,
@@ -32,9 +33,11 @@ const Thirdpage = () => {
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
     },
   ];
+
   return (
     <div>
-      <div className="flex justify-between mt-16 mx-8">
+      <Navbar />
+      <div className="flex justify-between mt-24 mx-8">
         <div className="w-6/12 ">
           <p className="font-bold">
             <span className="text-[#FF7917]"> -</span> Benefits OF Fitness App
@@ -64,4 +67,4 @@ const Thirdpage = () => {
   );
 };
 
-export default Thirdpage;
+export default ExclusivePage;

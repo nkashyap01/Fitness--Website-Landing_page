@@ -1,5 +1,5 @@
 import React from "react";
-import NavLogo from "../Assests/logo-icon.png";
+import NavLogo from "../../Assests/logo-icon.png";
 
 const Navbar = () => {
   return (
@@ -26,7 +26,7 @@ const Navbar = () => {
           </li>
           <li>
             {" "}
-            <a href="#"> About Us</a>
+            <a href=""> About Us</a>
           </li>
           <li>
             {" "}

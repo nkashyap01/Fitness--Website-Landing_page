@@ -1,11 +1,19 @@
 import React from "react";
-import mainImage from "../Assests/Hero-image.png";
-import store from "../Assests/playstore.png";
-import app from "../Assests/app.png";
-import appstore from "../Assests/appstore.png";
+import mainImage from "../../Assests/Hero-image.png";
+import store from "../../Assests/playstore.png";
+import app from "../../Assests/app.png";
+import appstore from "../../Assests/appstore.png";
+import orangeline from "../../Assests/second-arrow.png";
+import arrowicon from "../../Assests/arrow-icon.png";
+import rectangle from "../../Assests/Rectangle 6.png";
+import smallfirstimage from "../../Assests/first-small-image.png";
+import Navbar from "./Navbar";
 
 const MainPage = () => {
   return (
+    <div>
+
+    <Navbar />
     <div className="relative h-[641px] mt-8">
       <div className="background-image h-[641px]"></div>
       <div className="absolute top-0 w-screen flex ">
@@ -46,13 +54,24 @@ const MainPage = () => {
                   </div>
                 </button>
               </div>
+              <div className="flex gap-3" >
+                <div>
+
+                </div>
+                <div> 
+                <h1 className="font-bold"> 5M +</h1>
+                <p className="text-xs"> WorldWide Users</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div className="w-6/12">
+        <img src={orangeline} className= " absolute left-[800px]"/>
           <img src={mainImage} alt className="h-[631px] w-[580px]" />
         </div>
       </div>
+    </div>
     </div>
   );
 };

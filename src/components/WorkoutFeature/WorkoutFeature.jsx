@@ -6,7 +6,7 @@ import fourthicon from "../../Assests/workout-icon-4.png";
 import Heading from "./Heading";
 import CardIteration from "./CardIteration";
 
-const SixthPage = () => {
+const WorkoutFeature = () => {
   const sixthArrayItem = [
     {
       head: "category",
@@ -62,4 +62,4 @@ const SixthPage = () => {
   );
 };
 
-export default SixthPage;
+export default WorkoutFeature;
